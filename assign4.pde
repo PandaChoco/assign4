@@ -54,7 +54,7 @@ void draw() {
          if (mouseX>200 & mouseX<455 & mouseY>375 & mouseY<415){
              image(start1,0,0);
              if(mousePressed){
-               t2=0;
+               t2=-60*5;
                for (int i=1;i<=5;i++){       // restart
                   for (int j=1;j<=5;j++){
                     boomed[i][j]=false;
