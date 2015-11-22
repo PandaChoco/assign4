@@ -88,7 +88,7 @@ void draw() {
                 case 0:
                 //image(enemy,i*60,randomY);
                 if (i==3 &(boomed[i][j]==false)){
-                  arrayX[3][j]=i*60+t2;
+                  arrayX[3][j]=j*60+t2;
                   arrayY[3][j]=randomY;
                 }else{
                   arrayX[i][j]=width+60;
