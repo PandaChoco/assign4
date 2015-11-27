@@ -210,6 +210,7 @@ void draw() {
                 x=width-50;
                 y=height/2-25;
                 con=0;
+                t2=-60*5;
                 gameState=Game_run;
               }
           }else{
