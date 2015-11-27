@@ -210,7 +210,14 @@ void draw() {
                 x=width-50;
                 y=height/2-25;
                 con=0;
-                gameState=Game_start;
+                for (int i=1;i<=5;i++){       // restart
+                  boomnumX[i-1]=width+60;
+                  boomnumY[i-1]=height+60;
+                  for (int j=1;j<=5;j++){
+                    boomed[i][j]=false;
+                  }
+               }
+                gameState=Game_run;
               }
           }else{
             image(end2,0,0);
